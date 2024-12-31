@@ -18,7 +18,7 @@ export  default function CreateStudent(){
             body:JSON.stringify(studentData)
         })
         .then((res)=>
-            alert("Student has been succesfully."),
+            alert("Student has been created succesfully."),
             setTimeout(
                 navigate("/"), 15000),
        
