@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link,useParams } from "react-router-dom"
 
 export  default function ViewStudent(){
-   const {studentid}=useParams();
+  const {studentid}=useParams();
   const [studentData,setStudentData]=useState({});
   useEffect(()=>{
 fetch("http://localhost:8000/students/"+studentid) 

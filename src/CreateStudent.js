@@ -34,21 +34,21 @@ export  default function CreateStudent(){
      <h2 className="card-title">Create Student</h2>
      <div class="form-group">
     <label for="formGroupExampleInput">Id</label>
-    <input type="text" class="form-control" id="id" required name="id" value={id} onChange={e=>setId(e.target.value)} placeholder="Example input"/>
+    <input type="text" class="form-control" id="id" required name="id" value={id} onChange={e=>setId(e.target.value)} placeholder="Id"/>
     
   </div>
   <div class="form-group">
     <label for="formGroupExampleInput2">Name</label>
-    <input type="text"  class="form-control" id="name" required name="name" value={name} onChange={e=>setName(e.target.value)} placeholder="Another input"/>
+    <input type="text"  class="form-control" id="name" required name="name" value={name} onChange={e=>setName(e.target.value)} placeholder="Name"/>
   
   </div>
   <div class="form-group">
     <label for="formGroupExampleInput2">Place</label>
-    <input type="text" class="form-control" id="place" required name="place" value={place} onChange={e=>setPlace(e.target.value)}  placeholder="Another input"/>
+    <input type="text" class="form-control" id="place" required name="place" value={place} onChange={e=>setPlace(e.target.value)}  placeholder="Place"/>
   </div>
   <div class="form-group">
     <label for="formGroupExampleInput2">Phone</label>
-    <input type="text" class="form-control" id="phone" required name="phone" value={phone} onChange={e=>setPhone(e.target.value)}  placeholder="Another input"/>
+    <input type="text" class="form-control" id="phone" required name="phone" value={phone} onChange={e=>setPhone(e.target.value)}  placeholder="Phone"/>
   </div>
   <br></br>
   <div class="form-group">

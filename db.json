@@ -1,40 +1,12 @@
 {
-  "students": [
+  "students": [ 
     {
-      "id": 1,
-      "name": "Ajay kumar",
-      "place": "Meerut",
-      "phone": "7982014632"
-    },
-    {
-      "id": 2,
-      "name": "Ajay bansala",
-      "place": "Meerut",
-      "phone": "7982014632"
-    },
-    {
-      "id": "3",
+      "id": "1",
       "name": "Tinkoo Gurjar",
       "place": "Noida",
-      "phone": "+917078814632"
-    },
-    {
-      "id": "6",
-      "name": "Tinkoo Gurjar",
-      "place": "Greater Noida",
-      "phone": "+917078814632"
-    },
-    {
-      "id": "7",
-      "name": "Tinkoo Gurjar Last",
-      "place": "Greater Noida",
-      "phone": "+917078814632"
-    },
-    {
-      "id": "8",
-      "name": "Tinkoo Gurjar Last",
-      "place": "Greater Noida",
-      "phone": "+917078814632"
-    }
+      "phone": "+917982014632"
+    } 
+    
+     
   ]
 }
